@@ -1,1 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+
+header span:before {
+  content: '/';
+  margin: 10px;
+}
