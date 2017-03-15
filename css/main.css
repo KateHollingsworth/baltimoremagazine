@@ -57,7 +57,30 @@ h1 {
   margin: 0;
 }
 
-/* Columns of Contents */
+/*---------- Image grid ---------- */
+.img-grid:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.img-grid {
+  width: 75%;
+}
+
+.mainimg {
+  float: left;
+  width: 55%;
+  padding: 4px;
+}
+
+.sideimg {
+  float: left;
+  width: 40%;
+  padding: 4px;
+}
+
+/*----------- Columns of Contents ------------- */
 .column-blurbs {
   -webkit-columns: 140px 3;
   -moz-columns: 140px 3;
@@ -72,6 +95,7 @@ h1 {
   display: inline;
   text-align: justify;
 }
+
 .blurb {
   margin-bottom: 10px;
 }
