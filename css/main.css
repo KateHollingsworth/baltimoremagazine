@@ -1,6 +1,121 @@
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:700);
 
-header span:before {
+body {
+  maring: 0;
+  padding: 0;
+}
+
+/*---- Header Styling ------*/
+header span:before { /* Tip top header with decorative line */
   content: '/';
   margin: 10px;
+}
+
+header h4:after { /* the line */
+  content: ' ';
+  border-top: solid 5px black;
+}
+
+header span {
+  color: aquamarine;
+}
+
+h2 { /* Baltimore Logo */
+  font-size: 3.5em;
+  font-family: 'Playfair Display', serif;
+  color: #cccbcb;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin: 0;
+}
+
+.balt { /* Baltimore logo box */
+  margin-left: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.balt p {
+  text-transform: uppercase;
+  font-size: .65em;
+  margin: 0;
+}
+/* CONTENT lable */
+.contentbox {
+  float: left;
+  width: 75%;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 7.25em;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Columns of Contents */
+.column-blurbs {
+  -webkit-columns: 140px 3;
+  -moz-columns: 140px 3;
+  columns: 140px 3;
+  float: left;
+  width: 74%;
+  column-width: 120px;
+}
+
+/*Styling of Text in Columns */
+.column-blurbs p {
+  display: inline;
+  text-align: justify;
+}
+.blurb {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+h5 { /*article bold titles */
+  display: inline;
+  font-size: 0.83em;
+  font-weight: bold;
+}
+
+h5:after {
+  content: '';
+  margin: 3px;
+}
+h5 span {
+  color: red;
+}
+
+h5 span:after {
+  content: '';
+  margin: 3px;
+}
+
+#every-issue h5 {
+  display: block;
+  margin: 0;
+}
+
+#every-issue {
+  float: left;
+}
+p > span {
+  font-style: italic;
+}
+
+/* side box */
+.sidebox {
+  background-color: yellow;
+  width: 20%;
+  outline-color: black;
+  outline-width: thin;
+  float: right;
 }
