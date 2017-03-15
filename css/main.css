@@ -110,17 +110,17 @@ h5 { /*article bold titles */
   font-weight: bold;
 }
 
-h5:after {
+/*h5:after {
   content: '';
-  margin: 3px;
-}
+  margin: 2px;
+}*/
 h5 span {
   color: red;
 }
 
 h5 span:after {
   content: '';
-  margin: 3px;
+  margin: 2px;
 }
 
 #every-issue h5 {
@@ -130,6 +130,7 @@ h5 span:after {
 
 #every-issue {
   float: left;
+  margin-left: 10px;
 }
 p > span {
   font-style: italic;
