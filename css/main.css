@@ -16,7 +16,7 @@ header h4 span:after { /* the line */
     width: 9999px;
     position: absolute;
     margin-left: 5px;
-    top: 15px;
+    top: 25px;
 }
 
 header span {
@@ -90,7 +90,6 @@ h1 {
   float: left;
   width: 74%;
   column-width: 120px;
-  height:
 }
 
 /*Styling of Text in Columns */
@@ -99,7 +98,7 @@ h1 {
   text-align: justify;
 }
 
-.column-blurbs:after {
+.clearfix:after {
   content: '';
   display: table;
   clear: both;
