@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:700);
 
 body {
+
 }
 
 /*---- Header Styling ------*/
@@ -49,14 +50,56 @@ h2 { /* Baltimore Logo */
 /* CONTENT lable */
 .contentbox {
   float: left;
-  width: 75%;
+  margin-right: 20px;
 }
 
 h1 {
   font-family: 'Alfa Slab One', cursive;
-  font-size: 7.25em;
+  font-size: 15vw;
   font-weight: normal;
   margin: 0;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-size: .85em;
+  float: right;
+  margin: 0;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*--------- Sidebar --------*/
+
+sidebar {
+  border: 1px solid black;
+  float: right;
+}
+
+sidebar img {
+  width: 80%;
+}
+
+sidebar h6 {
+  float: none;
+}
+#sidecontent {
+  background-color: #e2f1cd;
+  height: inherit;
+  margin: 5px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+#greencircle img {
+  width:
+}
+
+h3 span {
+  color: red;
 }
 
 /*---------- Image grid ---------- */
@@ -66,20 +109,21 @@ h1 {
   clear: both;
 }
 
-.img-grid {
-  width: 75%;
-}
-
 .mainimg {
   float: left;
   width: 55%;
-  padding: 4px;
+  padding: 6px;
+  padding-left: 0;
 }
 
 .sideimg {
   float: left;
   width: 40%;
-  padding: 4px;
+  padding: 6px;
+}
+
+.sideimg:last-of-type {
+  padding-bottom: 0px;
 }
 
 /*----------- Columns of Contents ------------- */
@@ -148,14 +192,11 @@ p > span {
   font-style: italic;
 }
 
-/* side box */
-.sidebox {
-  background-color: yellow;
-  width: 20%;
-  outline-color: black;
-  outline-width: thin;
-  float: right;
+.notinline p {
+  display: block;
+  margin-top: 0;
 }
+
 
 /* ----------- Footer --------- */
 footer {
